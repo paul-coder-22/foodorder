@@ -1,10 +1,10 @@
 ## Componets
 
-| Componets | SubComponets                                      |
-| --------- | ------------------------------------------------- |
-| Cart      | Carticon                                          |
-| Layout    | Header , HeaderCartButton                         |
-| Meals     | Meals , AvaiableMeals , dummyMeals , MealsSummary |
-| UI        |                                                   |
+| Componets | SubComponets                                                  |
+| --------- | ------------------------------------------------------------- |
+| Cart      | Carticon                                                      |
+| Layout    | Header , HeaderCartButton                                     |
+| Meals     | Meals , AvaiableMeals , dummyMeals , MealsSummary,MealItem(c) |
+| UI        | Card                                                          |
 
-<img src="src/asset/InitialUi.png" />
+<img src="src/asset/ItemList.png" />
