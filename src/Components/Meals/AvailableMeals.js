@@ -5,8 +5,9 @@ import Card from '../UI/Card';
 import MealItem from './MealItem/MealItem';
 const AvailableMeals = () => {
     const [avaiableMeals, setAaiableMeals] = useState(DUMMY_MEALS)
-    console.log(avaiableMeals);
-    const mealsList = avaiableMeals.map(meal => <MealItem key={meal.id} name={meal.name} description={meal.description} price={meal.price} />)
+    const mealsList = avaiableMeals.map(meal =>
+        <MealItem key={meal.id} name={meal.name} description={meal.description} price={meal.price} />
+    )
     return (
         <section className={classes.meals}>
             <Card>
