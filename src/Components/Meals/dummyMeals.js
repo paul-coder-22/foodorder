@@ -7,8 +7,8 @@ let DUMMY_MEALS = [
     },
     {
         id: 'm2',
-        name: 'Schnitzel',
-        description: 'A german specialty!',
+        name: 'Shawarma Roll',
+        description: 'A middle eastern specialty!',
         price: 16.5,
     },
     {
