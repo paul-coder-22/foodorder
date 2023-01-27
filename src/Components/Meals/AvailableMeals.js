@@ -35,7 +35,7 @@ const AvailableMeals = () => {
             setMeals(loadedMeals)
             setIsLoading(false)
         }
-
+        /* fetchMeals is promise so to catch the error we use catch block after ward  */
         fetchMeals().catch((error) => {
             setIsLoading(false)
             setHttpError(error.message)
